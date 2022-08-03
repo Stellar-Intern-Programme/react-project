@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FF DIN';
+    src: local('FF DIN OT Bold'), local('FF-DIN-OT-Bold'),
+        url('DINOT-Bold.woff2') format('woff2'),
+        url('DINOT-Bold.woff') format('woff'),
+        url('DINOT-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
