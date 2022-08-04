@@ -1,0 +1,173 @@
+.photoBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+.poza-fundal{
+    width: 1700px;
+    border-radius: 20px ;
+    position: relative;
+}
+.buttonLoL{
+    bottom: 70px;
+    background-color: #3993d6;
+    width: 200px;
+    height: 70px;
+    border-radius:30px 30px 30px 30px;
+    border: none;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    font-weight: 600;
+}
+.fundal{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.54);
+    z-index: 2;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    position: relative;
+    background-color:#0c1424 ;
+    height: 473px;
+    width: 860px;
+    border-radius: 20px;
+    z-index: 4;
+
+}
+
+
+.conectare{
+    margin-left: 28px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;  
+    color: white;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.coverConectare{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left:30px ;
+}
+.ics{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 15px;
+    cursor: pointer;
+    color: #3993d6;
+    line-height: 1;
+    transition: .2s;
+}
+.ics:hover{
+   transform: rotate(180deg);
+}
+.coverIdPass{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.utiliator{
+    border: 0;
+    border-radius: 25px;
+    height: 50px;
+    width: 350px;
+    background-color: #2c2c2c;
+}
+.parola{
+    border: 2px solid transparent ;
+    border-radius: 25px;
+    height: 50px;
+    width: 350px;
+    background-color: #2c2c2c;
+}
+.utiliator::placeholder{
+  padding-left: 20px;
+  font-size: 20px;
+}
+.parola::placeholder{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.utiliator:hover {
+    border: 2px solid #3993d6;
+}
+.utiliator:focus {
+    outline: none;
+    border: 2px solid #3993d6;
+}
+.parola:hover {
+    border: 2px solid #3993d6;
+}
+.parola:focus {
+    outline: none;
+    border: 2px solid #3993d6;
+}
+.coverNR2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.ConBut{
+    background-color:#3993d6 ;
+    width: 250px;
+    height: 55px;
+    border-radius:30px 30px 30px 30px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+}
+.over{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    column-gap: 10px;
+    align-items: center;
+}
+.linie1{
+    height: 3px;
+    background-color: white;
+    width: 45%;
+}
+.linie2{
+    height: 3px;
+    background-color: white;
+    width: 45%;
+}
+.over p{
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    color: white;
+}
+.creare{
+    background-color:#3993d6 ;
+    width: 250px;
+    height: 55px;
+    border-radius:30px 30px 30px 30px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+}
