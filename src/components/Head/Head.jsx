@@ -45,6 +45,9 @@ export function Head() {
                 <button className="ConBut">
                     CONECTARE
                 </button>
+                <p className="uitat">
+                  AI UITAT PAROLA?
+                </p>
               </div>
               <div className="over">
                 <div className="linie1"></div>

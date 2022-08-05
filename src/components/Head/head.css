@@ -5,23 +5,27 @@
     width: 100%;
     height: fit-content;
     position: relative;
+    
 }
 .poza-fundal{
     width: 1700px;
-    border-radius: 20px ;
+    border-radius: 10px ;
     position: relative;
+    box-shadow: 0 45px 55px rgb(0 0 0 / 55%);
 }
 .buttonLoL{
+    cursor: pointer;
     bottom: 70px;
     background-color: #3993d6;
-    width: 200px;
-    height: 70px;
-    border-radius:30px 30px 30px 30px;
+    width: 246px;
+    height: 60px;
+    border-radius:30px ;
     border: none;
     z-index: 2;
     position: absolute;
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 20px;
 }
 .fundal{
     position: absolute;
@@ -37,14 +41,15 @@
 .modal{
     display: flex;
     flex-direction: column;
-    row-gap: 45px;
+    row-gap: 30px;
     position: relative;
     background-color:#0c1424 ;
-    height: 473px;
+    height: 503px;
     width: 860px;
     border-radius: 20px;
     z-index: 4;
-
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -55,7 +60,7 @@
     font-weight: 600;  
     color: white;
     margin-bottom: 0;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .coverConectare{
     display: flex;
@@ -72,6 +77,7 @@
     color: #3993d6;
     line-height: 1;
     transition: .2s;
+    opacity: 70%;
 }
 .ics:hover{
    transform: rotate(180deg);
@@ -85,13 +91,21 @@
     row-gap: 35px;
 }
 .utiliator{
-    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #3993d6;
+    border: 2px solid transparent;
     border-radius: 25px;
     height: 50px;
     width: 350px;
     background-color: #2c2c2c;
 }
 .parola{
+    cursor: pointer;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #3993d6;
     border: 2px solid transparent ;
     border-radius: 25px;
     height: 50px;
@@ -99,11 +113,9 @@
     background-color: #2c2c2c;
 }
 .utiliator::placeholder{
-  padding-left: 20px;
   font-size: 20px;
 }
 .parola::placeholder{
-    padding-left: 20px;
     font-size: 20px;
 }
 
@@ -128,6 +140,7 @@
     justify-content: space-evenly;
 }
 .ConBut{
+    cursor: pointer;
     background-color:#3993d6 ;
     width: 250px;
     height: 55px;
@@ -136,6 +149,15 @@
     font-weight: 600;
     color: white;
     font-size: 18px;
+}
+.uitat{
+    color: #3993d6;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
 }
 .over{
     display: flex;
@@ -147,27 +169,113 @@
 }
 .linie1{
     height: 3px;
-    background-color: white;
+    background-color: #3993d6;
     width: 45%;
+    opacity: 20%;
 }
 .linie2{
     height: 3px;
-    background-color: white;
+    background-color: #3993d6;
     width: 45%;
+    opacity: 20%;
 }
 .over p{
+    font-size: 30px;
     display: flex;
     align-items: flex-start;
     margin: 0;
-    color: white;
+    color: #3993d6;
+    opacity: 20%;
 }
 .creare{
-    background-color:#3993d6 ;
+    cursor: pointer;
+    background-color:transparent;
     width: 250px;
     height: 55px;
-    border-radius:30px 30px 30px 30px;
+    border-radius:30px;
     border: none;
     font-weight: 600;
     color: white;
     font-size: 18px;
+    border:  2px solid #3993d6;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.creare:hover{
+    background-color:#3993d6;
+    transition: 0.2s;
+}
+.creare:focus{
+    background-color:#3993d6;
+}
+@media screen and (min-width: 0px) and (max-width:500px){
+.photoBackground{
+    display: flex;
+    width: 90vw;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+}
+.poza-fundal{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttonLoL{
+    width:180px;
+    height: 46px;
+    font-size: 15px;
+    bottom: 35px;
+}
+.modal{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+}
+.conectare{
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 0;
+}
+.coverConectare{
+    justify-content: center;
+}
+.coverNR2{
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+}
+.utiliator{
+    width: 337px;
+    height: 45px;
+}
+.parola{
+    width: 337px;
+    height: 45px;
+}
+.coverConectare{
+    padding-left: 10px;
+}   
+
+.ConBut{
+    width: 230px;
+    height: 50px;
+    border-radius:30px ;
+}
+.creare{
+    width: 230px;
+    height: 50px;
+    border-radius:30px ; 
+}
+.linie1{
+    width: 35%;
+}
+.linie2{
+    width: 35%;
+}
+.uitat{
+    margin-bottom: 0;
+}
 }
