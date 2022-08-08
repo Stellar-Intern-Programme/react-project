@@ -1,0 +1,317 @@
+.topBar{
+    position: fixed;
+    width: 100%;
+    /* height: 10%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.topBarScrolled{
+    background-color: #1f122b;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fundal{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+}
+
+.restulProiectului{
+    width: 100%;
+    height: 200%;
+    background-color: rgb(34, 22, 47);
+    position: absolute;
+    top: 63%;
+}
+
+.logo{
+    width: fit-content;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+    padding-top: 40px;
+    position: absolute;
+}
+
+
+
+.imgscrolled{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    padding-left: 100px;
+    margin-left: 30px;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: fit-content;
+    align-items: flex-start;
+    padding-left: 300px;
+    padding-top: 40px;
+
+}
+
+.leftSideScrolled{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: fit-content;
+    align-items: flex-start;
+    padding-left: 240px;
+    padding-top: 30px;
+}  
+
+.textLeft{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: #59afd5;
+    font-size: 18px;
+    
+}
+
+.textLeftScrolled{
+    display: none;
+    gap: 30px;
+    margin-top: 15px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: #59afd5;
+    font-size: 18px;
+}
+
+.textLeft p:hover{
+    cursor: pointer ;
+    color: white;
+    border-color: #59afd5;
+}
+
+.textLeft p{
+    margin: 0px;
+    border-bottom: 2px solid transparent;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    padding-right: 300px;
+    padding-top: 40px;
+}
+
+.rightSidescrolled{
+    display: flex;
+    flex-direction: column;
+    padding-right: 250px;
+    padding-top: 20px;
+}
+
+.Cont{
+    display: flex;
+    gap: 20px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+}
+
+.Cont p{
+    margin: 0px;
+    padding-bottom: 7px;
+}
+
+.textRight{
+    display: flex;
+    gap: 20px;
+
+}
+
+.textRight p{
+    margin: 0px;
+    margin-top: 10px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: #59afd5;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+}
+
+.textRightScrolled{
+    display: none;
+}
+
+/* .textRightScrolled p{
+    margin: 0px;
+    margin-top: 28px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: #59afd5;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+} */
+
+.textRightScrolled p:hover{
+    cursor: pointer;
+    color: white;
+    border-color: #59afd5;
+}
+
+.textRight p:hover{
+    cursor: pointer;
+    color: white;
+    border-color: #59afd5;
+}
+
+.creareCont{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #59afd5;
+}
+
+.conectare{
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #59afd5;
+}
+
+.conectare:hover{
+    cursor: pointer;
+    border-color: white;
+    background-color: white;
+    color: #59afd5;
+}
+
+.creareCont:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #59afd5;
+}
+
+.bottomSide{
+    display: none;
+}
+
+.bottomSideScrolled{
+    width: 100%;
+    height: 5%;
+    background-color: #080709;
+    display: flex;
+    position: fixed;
+    top: 80px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: #59afd5;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bottomSideScrolled p{
+    border-bottom: 2px solid transparent;
+}
+
+.bottomSideScrolled p:hover{
+    cursor: pointer;
+    color: white;
+    border-color: #59afd5;
+}
+
+.lupa{
+    display: none;
+}
+
+.lupaScrolled{
+    position: absolute;
+    left: 22.2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .textLeft{
+        display: none;
+    }
+    .textLeftScrolled{
+        display: none;
+    }
+    .textRight{
+        display: none;
+    }
+    .textRightScrolled{
+        display: none;
+    }
+    /* .fundal{
+        width: 160%;
+        left: -31%;
+        overflow: hidden;
+    } */
+    .hamburger{
+        left: 10px;
+        top: 13px;
+    }
+    .img{
+        width: 40px;
+        height: 40px;
+        padding-top: 0px;
+        position: inherit;
+    }
+    .creareCont{
+        padding: 12px;
+        font-size: 12px;
+        width: 100px;
+    }
+    .conectare{
+        padding: 12px;
+        font-size: 12px;
+        width: 100px;
+    }
+    .leftSide{
+        padding: 0px;
+    }
+    .rightSide{
+        padding: 0px;
+    }
+    .topBar{
+        padding-top: 5px;
+        width: 100%;
+        align-items: center;
+    }
+    .restulProiectului{
+        top: 24%;
+    }
+    .bottomSideScrolled{
+        display: none;
+    }
+    .topBarScrolled{
+        height: 50px;
+        align-items: center;
+        padding-top: 5px;
+        width: 100%;
+    }
+    .imgscrolled{
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        position: inherit;
+        margin: 0px;
+    }
+    .rightSidescrolled{
+        padding: 0px;
+    }
+    .leftSideScrolled{
+        padding: 0px;
+        height: initial;
+    }
+}
