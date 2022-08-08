@@ -4,6 +4,7 @@
     /* height: 10%; */
     display: flex;
     justify-content: space-around;
+    z-index: 9000;
 }
 
 .topBarScrolled{
@@ -12,6 +13,7 @@
     position: fixed;
     width: 100%;
     display: flex;
+    z-index: 9000;
     justify-content: space-around;
 }
 
@@ -218,6 +220,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    z-index: 9000;
 }
 
 .bottomSideScrolled p{
