@@ -1,0 +1,78 @@
+
+.image{
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5s;
+}
+.gameImg{
+    height: 300px;
+    width: 207px; 
+    transition: all .5s;
+
+}
+.info {
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s;
+    opacity: 0%;
+    z-index: 5;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+.image:hover .info{
+    opacity: 100%;
+}
+/* .image:hover{
+    transform: scale(1.2);
+} */
+.image:hover .gameImg{
+    filter: brightness(50%);
+}
+.circle img{
+    height: 50px;
+    width: 50px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(69, 134, 184);
+    border-radius: 60px;
+    transition: all .3s;
+    align-self: center;
+    position: absolute;
+    top: 30%;
+}
+.circle:hover{
+    background-color: rgba(69, 134, 184, 0.5);
+}
+.demo{
+    margin-bottom: 20px;
+}
+.demo p{
+    padding: 2px 20px 2px 20px; 
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: all .3s;
+    font-size: 12px;
+    
+}
+.demo p:hover{
+    background-color: rgb(69, 134, 184);
+    color: #171a21;
+    border-color: rgb(69, 134, 184);
+}
