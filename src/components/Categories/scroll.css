@@ -1,0 +1,38 @@
+.contentBar{
+    color: #66c0f4;
+    width: 97%;
+    margin: auto;
+    margin-top: 100px;  
+    background-color: #1f2d3f;
+    border-radius: 8px;
+    max-width: 1920px;
+    overflow: auto;
+    padding: 45px 0;
+    display: block;
+    white-space: nowrap;
+    
+}
+.contentBar img{
+    color: #66c0f4;
+    flex-shrink: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.contentBar p{
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    flex-shrink: 0;
+    vertical-align: middle;
+    display: inline;
+    margin: 0 30px;
+}
+.contentBar p:hover{
+    color: white;
+    border-bottom-color: #66c0f4;   
+    
+}
+@media screen and (max-width: 768px) {
+    .contentBar{
+        padding: 20px 0;
+    }
+}
