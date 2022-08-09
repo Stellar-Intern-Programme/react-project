@@ -1,0 +1,22 @@
+.container-text{
+    display: flex;
+    width:95%;
+    justify-content: space-between;
+    align-self: center;
+    color: #C7D5E0;
+    gap: 20px;
+}
+.mini-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mini-text h3{
+    margin: 5px;
+    text-align: center;
+}
+.mini-text p{
+    color: grey;
+    margin: 0;
+    text-align: justify;
+}
