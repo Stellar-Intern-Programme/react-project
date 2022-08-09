@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fee0eaae.css",
+    "main.js": "/static/js/main.031b4705.js",
+    "static/js/787.65994a82.chunk.js": "/static/js/787.65994a82.chunk.js",
+    "static/media/fundal-site.jpeg": "/static/media/fundal-site.b870dba3fc25d146010d.jpeg",
+    "static/media/fundalMobil.jpg": "/static/media/fundalMobil.fe279ae42d6beb483980.jpg",
+    "static/media/loading.gif": "/static/media/loading.ca11b4688065bfbf0f24.gif",
+    "static/media/logo_y.png": "/static/media/logo_y.82d9a3d3e31fc3981c66.png",
+    "static/media/icon_search.svg": "/static/media/icon_search.ec2e2257b461193eb4b1e086597fc44b.svg",
+    "static/media/x-symbol-svgrepo-com.svg": "/static/media/x-symbol-svgrepo-com.d8fb11814561d3c2b75a9426b09ddc7c.svg",
+    "index.html": "/index.html",
+    "static/media/search.icon.svg": "/static/media/search.icon.2ac1fe50b09806a13232d9ddaf571993.svg",
+    "static/media/hamburger_icon.svg": "/static/media/hamburger_icon.f60521f6595a362658cdf1ee481f7dce.svg",
+    "main.fee0eaae.css.map": "/static/css/main.fee0eaae.css.map",
+    "main.031b4705.js.map": "/static/js/main.031b4705.js.map",
+    "787.65994a82.chunk.js.map": "/static/js/787.65994a82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fee0eaae.css",
+    "static/js/main.031b4705.js"
+  ]
+}
