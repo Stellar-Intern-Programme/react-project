@@ -2,7 +2,6 @@ import "./Topbar.css"
 import React, {useEffect, useState} from "react"
 import logo from "./assets/logo_y.png"
 import hamburger from "./assets/hamburger_icon.svg"
-import fundal from "./assets/fundal-site.jpeg"
 import lupa from "./assets/icon_search.svg"
 import {isMobile} from 'react-device-detect';
 import fundalMobile from "./assets/fundalMobil.jpg"
@@ -38,7 +37,6 @@ export function Topbar(){
 
     return (
     <div className={`topbar-root ${isScrolled ? "scrolled": ""}`}> 
-            <img className="fundal" src={isMobile? fundalMobile : fundal} alt="fundal" />
             <div className="restulProiectului"></div>
         <div className={`topBar${isScrolled ? "Scrolled": ""}`}>
             

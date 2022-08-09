@@ -10,7 +10,8 @@
     padding: 45px 0;
     display: block;
     white-space: nowrap;
-    
+    position: relative;
+
 }
 .contentBar img{
     color: #66c0f4;
@@ -34,5 +35,20 @@
 @media screen and (max-width: 768px) {
     .contentBar{
         padding: 20px 0;
+    }
+    .undertoptext p{
+        inline-size: 100%;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+    .toptext p{
+        
+        padding: 0px;
+    }
+    .toptext {
+        display: flex;
+        flex-wrap: wrap;
+        inline-size: 100%;
+        overflow-wrap: break-word;
     }
 }

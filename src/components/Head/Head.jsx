@@ -34,7 +34,7 @@ export function Head() {
               }}
             />
             <div className="coverConectare">
-              <p className="conectare">CONECTARE</p>
+              <p className="conectare1">CONECTARE</p>
             </div>
             <div className="coverIdPass">
                 <div className="coverNR2">
