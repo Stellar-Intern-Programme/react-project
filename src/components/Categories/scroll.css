@@ -11,7 +11,9 @@
     display: block;
     white-space: nowrap;
     position: relative;
-
+}
+.contentBar::-webkit-scrollbar{
+    display: none;
 }
 .contentBar img{
     color: #66c0f4;

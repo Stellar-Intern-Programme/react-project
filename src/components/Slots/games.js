@@ -34,7 +34,7 @@ export default function Games({ x, y, img }) {
                             slidesPerView: 3,
                         },
                         1700: {
-                            slidesPerView: 9,
+                            slidesPerView: 7.5,
                         },
                     }}
                 // onSwiper={(swiper) => console.log(swiper)}

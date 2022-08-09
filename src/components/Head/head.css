@@ -2,13 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: fit-content;
     position: relative;
     
 }
 .poza-fundal{
-    width: 1700px;
+    width:100%;
     border-radius: 10px ;
     position: relative;
     box-shadow: 0 45px 55px rgb(0 0 0 / 55%);
@@ -32,17 +31,18 @@
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.54);
-    z-index: 2;
+    z-index: 101;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .modal{
+    overflow: hidden;
+    position: fixed;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    position: relative;
     background-color:#0c1424 ;
     height: 503px;
     width: 860px;
@@ -139,6 +139,11 @@
     justify-content: center;
     justify-content: space-evenly;
 }
+.conectareBut{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .ConBut{
     cursor: pointer;
     background-color:#3993d6 ;
@@ -186,6 +191,10 @@
     margin: 0;
     color: #3993d6;
     opacity: 20%;
+}
+.overCreare{
+    display: flex;
+    justify-content: center;
 }
 .creare{
     cursor: pointer;
@@ -248,6 +257,7 @@
     row-gap: 40px;
     align-items: center;
 }
+
 .utiliator{
     width: 337px;
     height: 45px;
