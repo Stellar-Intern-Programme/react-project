@@ -233,6 +233,7 @@
     width: 100vw;
     height: 100vh;
     border-radius: 0;
+    z-index: 100000000000;
 }
 .conectare1{
     justify-content: center;
